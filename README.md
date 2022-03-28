@@ -1,12 +1,17 @@
 # mapofraleighbusstops
-Hit the API for Raleigh, grabbed the bus stop data, mapped it
 
-Title of the project: Raleigh Bus Tracker
+## Title of the project
+Raleigh Bus Tracker
 
-Description of the project: Maps bus stops
+## Description of the project
+Hit the Transloc Open API for Raleigh, a RESTful API which lets you incorporate real-time vehicle tracking information into your web or mobile applications. Grabbed the bus stop data. Mapped it using mapbox, using an animated map marker. 
 
-How to Run: Load 05_map_automation.html in a browser with mapanimation_raleigh.js in same dir
+## How to Run
+Load 05_map_automation.html in a browser with mapanimation_raleigh.js in same dir
 
-Roadmap of future improvements: Instead of including all the stops, do them by route. Add styles.css (refers to the mapbox one right now). Add MIT license (added Gnu by accident initially and deleted). 
+## Roadmap of future improvements
+* Instead of including all the stops, do them by route (looks like a drunken bus driver at the moment).
+* Add styles.css (refers to the mapbox one right now).
 
-License information: This should include information about the MIT license. 
+## License information
+MIT license
