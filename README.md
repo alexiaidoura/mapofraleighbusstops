@@ -11,7 +11,6 @@ Load 05_map_automation.html in a browser with mapanimation_raleigh.js in same di
 
 ## Roadmap of future improvements
 * Instead of including all the stops, do them by route (looks like a drunken bus driver at the moment).
-* Add styles.css (refers to the mapbox one right now).
 
 ## License information
 MIT license
