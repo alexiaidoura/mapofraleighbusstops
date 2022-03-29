@@ -1,14 +1,13 @@
-body {
-    background-color: darkslategrey;
-    color: azure;
-    font-size: 1.1em;
-}
-h1 {
-    color: coral;
-}
-#intro {
-    font-size: 1.3em;
-}
-.colorful {
-    color: orange;
+body { margin: 0; padding: 0; }
+  
+#map { 
+    /* 600px square map with tacky border offset by 50px from top/left edges*/
+    position: absolute; 
+    top: 50px; 
+    bottom: 0px; 
+    left: 50px;
+    width: 600px; 
+    height: 600px;
+    border-style: dashed !important; /* !important overrides other declarations */
+    border-color: red !important;
 }

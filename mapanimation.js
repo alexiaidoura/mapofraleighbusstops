@@ -7,9 +7,11 @@
     //MAPBOX_RALEIGHMAP_SECRET; //TODO: IMPLEMENT SECRETS
 
   // DONE: create the map object using mapboxgl.map() function
+  // satellite style: mapbox://styles/mapbox/satellite-v9 
+  // street style: mapbox://styles/mapbox/streets-v11
   let map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/mapbox/satellite-v9',
     center: [-78.6382, 35.7796], // Raleigh NC
     zoom: 12
   });
