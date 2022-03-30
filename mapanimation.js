@@ -17,8 +17,8 @@
   });
 
   // DONE: add a marker to the map
-  let marker = new mapboxgl.Marker()
-    .setLngLat([-78.6382, 35.7796]) // TODO: replace with first point from array 
+  let marker = new mapboxgl.Marker() // TODO: #3 change default marker to mapbox-icon.png
+    .setLngLat([-78.6382, 35.7796]) // TODO: #2 replace hardcoded point with first point from array 
     .addTo(map);
 
   // This array will contain the bus stops pulled from city of raleigh data
